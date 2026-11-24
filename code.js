@@ -6,4 +6,3 @@ function validateCode(code){
     return false
   }
 };
-console.log(validateCode(12233))
