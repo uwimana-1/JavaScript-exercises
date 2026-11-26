@@ -6,3 +6,8 @@ function validateCode(code){
     return false
   }
 };
+// Reverses the order of elements in a listc
+function reverseList(list) {
+
+    return list.reverse();
+}
