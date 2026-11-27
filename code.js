@@ -11,3 +11,7 @@ function reverseList(list) {
 
     return list.reverse();
 }
+// Returns the sum of all the multiples of 3 or 5 below the number passed in
+function expressionMatter(a, b, c) {
+  return Math.max((a+b+c),(a*b*c),(a*b+c),(a*(b+c)),(a+b*c),((a+b)*c));
+}
